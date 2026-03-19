@@ -1,6 +1,20 @@
+# IntelliJ
+.idea/
+.vscode/
+
+# Java
 target/
+
+# Node
 node_modules/
 dist/
 build/
+
+# Env
 .env
+
+# Logs
 *.log
+
+# Mac
+.DS_Store
