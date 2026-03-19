@@ -5,9 +5,9 @@ spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:mysql://mysql:3306/freezer_monitoring
+    url: jdbc:mysql://localhost:3306/freezer_monitoring
     username: root
-    password: Joy@2317
+    password: Vvigneshwar@2909
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       maximum-pool-size: 20
@@ -31,7 +31,7 @@ spring:
     # Prefer env vars in Docker so you can rotate safely.
     # Use a Gmail App Password (16 chars). Do NOT include spaces.
     username: "cloud.cryoscientific@gmail.com"
-    password: "kmzpufjmjauocbeg"
+    password: "appw nkuy orub hnce"
     properties:
       mail:
         smtp:
